@@ -1,0 +1,61 @@
+.Content {
+  text-align: center;
+  width: 75vw;
+  height: 100%;
+  transition: all 1s ease;
+}
+
+.Content h5 {
+  color: #eeca1c;
+}
+
+.Container {
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.WatchBox {
+  width: 22%;
+  height: 40vh;
+  margin: 3vh 1.5%;
+}
+
+.WatchBox:hover {
+  box-shadow: 1px 20px 80px #eeefee;
+  cursor: pointer;
+}
+
+.WatchBox .img {
+  width: 100%;
+  height: 80%;
+  background: url("https://michaelkors.scene7.com/is/image/MichaelKors/MK8649-0001_IS?$categoryMediumNew$")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.desc {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  color: #000;
+  padding-bottom: 3vh;
+}
+
+.desc h4 {
+  margin: 0.5vh 0 1vh 0;
+  font-weight: 400;
+}
+
+.desc h5 {
+  margin: 0;
+  font-weight: 400;
+}

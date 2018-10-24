@@ -1,0 +1,30 @@
+.Hero {
+  height: 70vh;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("https://images.pexels.com/photos/220570/pexels-photo-220570.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+      no-repeat center 95% / cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.heroText {
+  width: 50%;
+  margin-left: 5vw;
+  color: #fff;
+  text-align: center;
+}
+
+.heroText h1,
+.heroText h4 {
+  font-weight: 400;
+}
+
+.heroText h1 {
+  font-size: 4em;
+}

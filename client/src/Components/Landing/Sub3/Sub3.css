@@ -1,0 +1,21 @@
+.Sub3 {
+  height: 100%;
+}
+
+.Sub3 h2 {
+  text-align: center;
+}
+
+.Box {
+  width: 90%;
+  margin: 0 auto 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  height: 90vh;
+  background: black;
+}
+
+.box {
+  min-width: 30%;
+  flex-grow: 1;
+}

@@ -1,0 +1,26 @@
+.Footer {
+  height: 10vh;
+  background: #eeefee;
+  display: flex;
+  align-items: center;
+}
+.Footer h2 {
+  width: 40%;
+  margin-left: 3vw;
+  display: flex;
+  justify-content: center;
+}
+
+.Footer .logos {
+  width: 60%;
+  text-align: center;
+}
+
+.Footer .logos i {
+  margin: 0 0.9vw;
+  cursor: pointer;
+}
+.Footer .logos i:hover {
+  color: #eeca1c;
+  transition-duration: 0.5s;
+}

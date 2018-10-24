@@ -1,0 +1,49 @@
+.Sub1 {
+  height: 50vh;
+  margin: 5vh 0;
+  display: flex;
+}
+
+hr {
+  margin: 5vh 0;
+  border: 0.5px solid #eeefee;
+}
+
+.Text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Text h2 {
+  border-bottom: 2px solid #eeca1c;
+}
+
+.Text h4 {
+  width: 80%;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+.homeLink {
+  border: 1px solid #eeca1c;
+  padding: 2vh 3vw;
+  border-radius: 35px;
+  background: #eeca1c;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sub1Img {
+  height: 100%;
+  width: 50%;
+  background: url("https://images.pexels.com/photos/277390/pexels-photo-277390.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+    no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-right: 4vw;
+}

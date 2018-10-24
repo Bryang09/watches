@@ -1,0 +1,14 @@
+.Sub2 {
+  height: 50vh;
+  display: flex;
+  margin: 5vh 0;
+}
+
+.sub2Img {
+  width: 50%;
+  background: url("https://images.pexels.com/photos/179909/pexels-photo-179909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+    no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-left: 5vw;
+}

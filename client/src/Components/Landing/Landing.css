@@ -1,0 +1,128 @@
+@media only screen and (max-width: 1350px) {
+}
+
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 992px) {
+}
+
+@media only screen and (max-width: 768px) {
+  .Hero {
+    height: 90vh;
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.1)
+      ),
+      url("https://images.pexels.com/photos/220570/pexels-photo-220570.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+        no-repeat center 55% / cover;
+    display: flex;
+    align-items: center;
+  }
+  .Sub1,
+  .Sub2 {
+    flex-direction: column-reverse;
+    height: 100%;
+    margin: 0;
+  }
+
+  .Sub2 {
+    flex-direction: column;
+  }
+  .sub1Img,
+  .sub2Img {
+    width: 100%;
+    height: 70vh;
+  }
+
+  .sub2Img {
+    margin: 0;
+  }
+  .Text {
+    width: 100%;
+    height: 35vh;
+  }
+
+  .homeLink {
+    background: none;
+    border: 1px solid #fff;
+  }
+
+  .Text:nth-child(1) {
+    background: linear-gradient(90deg, #00e8ff, #001bff);
+    color: #fff;
+  }
+  .Text:nth-child(2) {
+    background: linear-gradient(-90deg, #e58cff, #570c80);
+    color: #fff;
+  }
+
+  .Text h2 {
+    border: none;
+  }
+
+  hr {
+    display: none;
+  }
+  #First {
+    display: flex;
+    margin-top: 0;
+  }
+
+  .Box {
+    height: 150vh;
+    background: #fff;
+  }
+
+  .box {
+    min-width: 50%;
+    max-width: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Hero {
+    height: 90vh;
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.1)
+      ),
+      url("https://images.pexels.com/photos/220570/pexels-photo-220570.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+        no-repeat 68% 55% / cover;
+    display: flex;
+    align-items: center;
+  }
+
+  .Box {
+    height: 100%;
+    background: #fff;
+    width: 96%;
+  }
+
+  .box {
+    min-width: 100%;
+    max-width: 50%;
+    height: 50vh;
+  }
+
+  .Footer {
+    height: 8vh;
+  }
+  .Footer h2 {
+    font-size: 1em;
+  }
+  .Footer i {
+    font-size: 1.5em;
+  }
+
+  .Nav h2 {
+    font-size: 1em;
+  }
+  .Navigation h4 {
+    font-size: 0.8em;
+  }
+}

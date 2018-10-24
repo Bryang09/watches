@@ -1,0 +1,63 @@
+.Watches {
+  display: flex;
+  height: 100%;
+  transition: all 1s ease;
+}
+
+.Menu {
+  width: 25vw;
+}
+
+@media only screen and (max-width: 1350px) {
+  .Menu {
+    width: 20vw;
+  }
+  .Content {
+    width: 75vw;
+  }
+  .WatchBox {
+    width: 25%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .Content {
+    width: 80vw;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .Watches {
+    flex-direction: column;
+  }
+  .Menu {
+    width: 90vw;
+  }
+  .Content {
+    width: 98vw;
+  }
+
+  .Content .Container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .WatchBox {
+    width: 30%;
+    margin: 2.5vh 1.5%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Content {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  .WatchBox {
+    width: 45%;
+    margin: 5vh 2.5%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .WatchBox {
+    width: 90%;
+    margin: 5vh 2.5%;
+    box-shadow: -1px 30px 34px -13px rgba(0, 0, 0, 0.75);
+  }
+}
